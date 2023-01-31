@@ -27,6 +27,7 @@ struct LandmarkList: View {
                     }
                 }
             }
+            .listStyle(PlainListStyle())
             .navigationTitle("Landmarks")
         }
     }
